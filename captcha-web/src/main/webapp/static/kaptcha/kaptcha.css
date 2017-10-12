@@ -1,0 +1,135 @@
+.myCaptcha {
+    width: 330px;
+    padding: 5px;
+}
+
+.myCaptcha-btn-refresh {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    background-image: url(icon_light.f13cff3.png);
+    background-position: 0 -437px;
+    background-size: 34px 471px;
+
+}
+
+.myCaptcha-btn-refresh:hover {
+    cursor: hand;
+    background-image: url(icon_light.f13cff3.png);
+    background-position: 0 -400px;
+    background-size: 34px 471px;
+}
+
+.myCaptcha-img-box {
+    position: relative;
+    width: 330px;
+    height: 160px;
+}
+
+.myCaptcha-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.myCaptcha-tip-box {
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+.myCaptcha-tip-box.normal{
+    border: 1px solid #cccccc;
+    color:  #000000;
+    background-color: rgba(204, 204, 204, 0.3);
+}
+.myCaptcha-tip-box.success{
+    border: 1px solid #52ccba;
+    color:  #52ccba;
+    background-color: rgba(82, 204, 186, 0.21);
+}
+
+.myCaptcha-tip-box.warning{
+    border: 1px solid #cc797d;
+    color:#cc797d;
+    background-color: rgba(204, 121, 125, 0.3);
+}
+
+.myCaptcha-tip-box .tip-text {
+    border: none;
+}
+.myCaptcha-tip-box >.success-icon{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+    background-image: url(icon_light.f13cff3.png);
+    background-position: 0 -65px;
+    background-size: 34px 471px;
+}
+.myCaptcha-tip-box >.warning-icon{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: url(icon_light.f13cff3.png);
+    background-position: 0 -95px;
+    background-size: 34px 471px;
+}
+.myCaptcha-point1{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    background-image: url(icon_light.f13cff3.png);
+    background-position: 0 -363px;
+    background-size: 34px 471px;
+}
+
+.myCaptcha-point2{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    background-image: url(icon_light.f13cff3.png);
+    background-position: 0 -218px;
+    background-size: 34px 471px;
+}
+.myCaptcha-point3{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    background-image: url(icon_light.f13cff3.png);
+    background-position: 0 -326px;
+    background-size: 34px 471px;
+}
+.myCaptcha-point4{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    background-image: url(icon_light.f13cff3.png);
+    background-position: 0 -289px;
+    background-size: 34px 471px;
+}
+.myCaptcha-point5{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    background-image: url(icon_light.f13cff3.png);
+    background-position: 0 -252px;
+    background-size: 34px 471px;
+}
